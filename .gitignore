@@ -3,7 +3,7 @@ private/
 #data/
 derby.log
 metastore_db
-spark
+#spark
 web/deploy.sh
 
 #### joe made this: https://goel.io/joe
@@ -11,3 +11,4 @@ web/deploy.sh
 #####=== Vagrant ===#####
 .vagrant/
 
+.DS_Store

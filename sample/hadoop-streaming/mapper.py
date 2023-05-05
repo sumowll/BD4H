@@ -14,4 +14,4 @@ for line in sys.stdin:
     patient_id, event_name, date_offset, value = splits
 
     # emit key-value pair seperated by \t for all events
-    print event_name + '\t' + '1'
+    print(event_name + '\t' + '1')
